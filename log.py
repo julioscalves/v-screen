@@ -1,7 +1,7 @@
 import glob
 import pandas as pd
 
-logs = [log for log in glob.glob("*.log")]
+logs = glob.glob("*.log")
 
 dataset = {"id": [],
            "pos": [],
